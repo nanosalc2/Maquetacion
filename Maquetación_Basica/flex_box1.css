@@ -1,0 +1,46 @@
+.papa{
+    border: 5px grey solid;
+    border-radius: 5px;
+    width: 90vh;
+    height: 90vh;
+}
+
+header{
+    border: 3px solid rgba(156, 217, 156, 0.921);
+   
+    height: 10%;
+}
+
+nav{
+    border: 3px solid rgba(237, 101, 237, 0.912);
+    height: 10;
+}
+
+footer{
+    border: 3px solid rgb(245, 204, 126);
+    height: 10;
+}
+
+article{
+    border: 3px solid blue;
+}
+
+div .papa{
+    display: inline;
+
+
+}
+
+article{
+    width: 60%;
+}
+
+div{
+    border: 3px solid rgba(235, 204, 146, 0.915);
+    width: 40%;
+    
+}
+
+aside{
+    border: 3 px solid rgba(98, 98, 244, 0.903);
+}
