@@ -1,46 +1,55 @@
+*{
+    margin: 1.5px;
+}
 .papa{
-    border: 5px grey solid;
-    border-radius: 5px;
-    width: 90vh;
+    border: 5px rgb(194, 192, 192) solid;
+    border-radius: 6px;
+    width: 80vh;
     height: 90vh;
 }
-
-header{
-    border: 3px solid rgba(156, 217, 156, 0.921);
-   
-    height: 10%;
-}
-
-nav{
-    border: 3px solid rgba(237, 101, 237, 0.912);
-    height: 10;
-}
-
-footer{
-    border: 3px solid rgb(245, 204, 126);
-    height: 10;
-}
-
-article{
-    border: 3px solid blue;
-}
-
-div .papa{
-    display: inline;
-
-
-}
-
-article{
-    width: 60%;
-}
-
-div{
-    border: 3px solid rgba(235, 204, 146, 0.915);
-    width: 40%;
+    header{
+        border: 4px solid rgba(156, 217, 156, 0.921);
     
+        height: 14%;
+    }
+
+    .papa_hijo2{
+    border: 4px solid rgba(237, 101, 237, 0.912);
+    height: 9%;
+    }
+
+
+    footer{
+        border: 4px solid rgb(245, 204, 126);
+        height: 9%;
+    }
+
+    .papa_hijo3{
+       display: flex;
+       flex-direction: row;
+       height: 62%;
+    }
+        .hijo_nieto{
+            border: 4px solid blue;
+            width: 70%;
+        }
+
+        .hijo_nieto1{
+            border: 4px solid rgba(235, 204, 146, 0.915);
+            width: 30%; 
+            display: flex;
+            flex-direction: column;
+        }
+aside{
+    border: 4px solid rgba(4, 213, 213, 0.927);
+    height: 46%;
 }
 
-aside{
-    border: 3 px solid rgba(98, 98, 244, 0.903);
+section{
+    border: 4px solid rgba(228, 11, 228, 0.942);
+    height: 14%;
+}
+
+#div_centro{
+    height: 32%;
 }
