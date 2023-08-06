@@ -1,0 +1,50 @@
+
+main{
+    height: 95vh;
+    width: 100%;
+    
+}
+nav{
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}   
+
+a{
+    color: rgb(164, 162, 162);
+    text-decoration: none;
+}
+
+article{
+    width: 660px;
+    height: 80%;
+    /* border: 2px solid red; */
+    margin-left: 12%;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 35px;
+}
+
+p{
+    font-size: 11px;
+}
+
+.divHome{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+img{
+    width: 280px;
+    height: 420px;
+    margin-top: 45px;
+    margin-left: 8%;
+}
